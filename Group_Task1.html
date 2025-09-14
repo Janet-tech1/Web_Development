@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+    <style>
+        .box {
+            background-color: black;
+            padding: 25px;
+        }
+
+        .body {
+            background-color: black;
+            color: white;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            text-align: left;
+            font-style: initial;
+            font-size: 10px;
+            border-radius: 10px;
+            border: 15px;
+            padding-left: 35px;
+        }
+
+        .hero {
+            text-align: right;
+            font-size: 10px;
+            align-items: right;
+            padding-left: 750px;
+            padding-right: 3px;
+            margin: auto;
+            border-radius: 10px;
+            border: 15px;
+        }
+
+        .content1 {
+            background-color: black;
+            text-align: center;
+            font-size: 18px;
+            padding: 50px;
+            margin: 50px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .highlight1 {
+            color: green;
+        }
+
+        .paragraph1 {
+            font-size: 16px;
+            color: gray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .OrderView button {
+            padding: 5px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: rgb(26, 255, 0);
+        }
+
+        #View {
+            background-color: grey;
+            font-weight: 600;
+            margin: 5px 5px;
+            border-radius: 4px;
+        }
+
+        .Order_View {
+            display: flex;
+            gap: 25px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(6, 6, 43);
+        }
+
+        .flavor {
+            background-color: rgb(6, 6, 43);
+            color: white;
+            font-size: large;
+            margin-left: 15px;
+            margin-right: 10px;
+            margin: auto;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font: inherit;
+            padding: 60px 50px;
+            margin: 0px;
+        }
+
+        .image {
+            background-image: url(images/burger3.jpg);
+            height: 300px;
+            width: 150px;
+            padding: 0 50px;
+            margin: 90px 200px;
+            border-radius: 20px;
+            border: 10px;
+            max-width: 200;
+            justify-content: space-between;
+        }
+
+
+        .image1 {
+            background-image: url(images/pizza2.png);
+            height: 180px;
+            width: 10px;
+            margin: 40px 30px;
+            margin-bottom: 30px;
+            padding: 0 150px;
+            border-radius: 20px;
+        }
+
+        .image2 {
+            background-image: url(images/spag.jpg);
+            height: 180px;
+            width: 10px;
+            margin: 40px 30px;
+            padding: 0px 150px;
+            border-radius: 20px;
+        }
+
+        .image3 {
+            background-image: url(images/salad.jpg);
+            height: 180px;
+            width: 10px;
+            margin: 40px 30px;
+            padding: 0px 150px;
+            border-radius: 20px;
+        }
+
+        .menu_box {
+            background-color: grey;
+            color: white;
+            height: 180px;
+            width: 10px;
+            padding-top: 0;
+            margin-top: 0px;
+            margin: 40px 30px;
+            padding: 0px 150px;
+            /* border-radius: 20px; */
+        }
+
+        .menu_container {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(6, 6, 43);
+        }
+
+        .menu {
+            text-align: center;
+            color: white;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="border">
+        <div class="box">
+            <div class="body">
+                <h3>Foddie</h3>
+
+                <div class="hero">
+                    <ul style="list-style: none; margin: 0; padding: 0;">
+                        <li style="display: inline-block; margin-right: 20px;">
+                            <a href="#home" style="color: white; text-decoration: none; font-weight: bold;">Home</a>
+                        </li>
+                        <li style="display: inline-block; margin-right: 20px;">
+                            <a href="#menu" style="color: white; text-decoration: none;">Menu</a>
+                        </li>
+                        <li style="display: inline-block; margin-right: 20px;">
+                            <a href="#about" style="color: white; text-decoration: none;">About</a>
+                        </li>
+                        <li style="display: inline-block; margin-right: 20px;">
+                            <a href="#contact" style="color: white; text-decoration: none;">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <div class="box"> -->
+            <div class="content1">
+                <h1> Your Favorite Food,</h1>
+                <h1>Delivered <span class="highlight1">Hot & Fresh.</span></h1>
+                <div class="paragraph1">
+                    <p>Experience the best of local and international cusine, prepared with</p>
+                    <p>passion and delivered to your doorstep.</p>
+                </div>
+
+                <div class="OrderView">
+                    <button>Order Now</button>
+                    <button id="View">View Menu</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="flavor">
+                <h1>Savour the Flavor</h1>
+                <h1>of our <span class="highlight1">Signature</span></h1>
+                <h1><span class="highlight1">Burger</span></h1>
+                <p>Indulge in our mouth watering burger, crafted with</p>
+                <p> premium ingredients and bursting with flavor. Experience</p>
+                <p> the perfect blend of juicy patty, fresh toppings, and a</p>
+                <p>toasted bun.</p>
+                <div class="OrderView">
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="image">
+            </div>
+        </div>
+        <div class="menu_container">
+            <div class="menu">
+                <h1>Our Delicious Menu</h1>
+                <p>Crafted with passion, from our kitchen to your table.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image1">
+
+            </div>
+            <div class="image2">
+
+            </div>
+            <div class="image3">
+
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<!-- Text below the image -->
+
+</body>
+
+</div>
+</div>
+
+
+</html
